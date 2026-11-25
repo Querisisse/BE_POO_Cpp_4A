@@ -9,7 +9,7 @@ class Human;
 class Player : public Human {
     private :
         int money;
-        int mise_actu;
+        int mise_actu; //mise actuelle
     public :
         void hit(){
            add_to_personal_deck();
